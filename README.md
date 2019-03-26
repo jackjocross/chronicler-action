@@ -12,8 +12,8 @@ workflow "Add PR to release notes" {
   resolves = ["Chronicler"]
 }
 
-action "Run Chronicler" {
-  uses = "crosscompile/chronicler-action@master"
+action "Chronicler" {
+  uses = "crosscompile/chronicler-action@v1.0.0"
   secrets = ["GITHUB_TOKEN"]
 }
 ```
