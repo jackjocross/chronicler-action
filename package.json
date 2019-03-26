@@ -1,0 +1,12 @@
+{
+  "name": "chronicler-action",
+  "version": "1.0.0",
+  "description": "Github Action for Chronicler",
+  "repository": "git@github.com:crosscompile/chronicler-action.git",
+  "author": "jack <jackjocross@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "esm": "^3.2.20"
+  }
+}
